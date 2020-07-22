@@ -6,4 +6,9 @@ layout: base.njk
 <div class="container">
   <h1>This is the about page</h1>
   <p>It's made for building a static site using Eleventy</p>
+
+
+  {% for item in news %}
+    <a href="/{{item.country}}">{{item.country}}</a>
+  {% endfor %}
 </div>
