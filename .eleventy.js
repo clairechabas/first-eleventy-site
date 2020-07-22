@@ -1,6 +1,7 @@
 module.exports = function (config) {
-  config.addPassthroughCopy('src/js');
-  config.addPassthroughCopy('src/css');
+  config.addPassthroughCopy('/css/main.css');
+  config.addPassthroughCopy('/js/vibe.js');
+
   return {
     dir: {
       input: 'src',

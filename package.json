@@ -1,8 +1,7 @@
 {
-  "name": "3-build-with-ssg",
+  "name": "6-client-side-api",
   "version": "1.0.0",
   "description": "",
-  "main": "vibe.js",
   "scripts": {
     "build": "eleventy",
     "start": "eleventy --serve"
